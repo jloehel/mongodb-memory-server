@@ -53,7 +53,7 @@
     "build": "tsc --build tsconfig.build.json",
     "semantic-release": "semantic-release",
     "readme:toc": "doctoc ./README.md",
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "website": "yarn --cwd website/ run start"
   }
 }
